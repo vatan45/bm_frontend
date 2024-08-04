@@ -15,6 +15,7 @@ const Backend_URL = import.meta.env.VITE_BACKEND_URL;
 interface ChatItem {
   author: {
     name: string;
+    
     thumbnail?: {
       url: string;
       alt: string;
